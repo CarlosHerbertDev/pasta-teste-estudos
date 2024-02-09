@@ -13,7 +13,7 @@ Copia da pagina do meu perfil do instagram <br/>
 <br>
 
   <p align= 'center'>
-  <img alt="Peojeto Meu Instagram" src="./tela.gif" width='50%'>
+  <img alt="Peojeto Meu Instagram" src="./tela2.gif" width='50%'>
   </p>
 
 
