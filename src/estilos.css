@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: 'Milky';
+    src: url(/src/fontes/MilkyNice.otf), url(./src/fontes/MilkyNice.ttf);
+}
+
+body {
+    background-color: pink;
+}
+
+h1 {
+    font-family: 'Milky', Arial, sans-serif;
+}
+
