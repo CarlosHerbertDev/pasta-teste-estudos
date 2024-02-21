@@ -12,3 +12,6 @@ h1 {
     font-family: 'Milky', Arial, sans-serif;
 }
 
+a {
+    cursor: progress;
+}
