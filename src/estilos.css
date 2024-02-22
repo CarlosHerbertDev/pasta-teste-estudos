@@ -1,11 +1,14 @@
 
+html {
+    
+}
+
+
+
+
 @font-face {
     font-family: 'Milky';
     src: url(/src/fontes/MilkyNice.otf), url(./src/fontes/MilkyNice.ttf);
-}
-
-body {
-    background-color: pink;
 }
 
 h1 {
@@ -14,4 +17,22 @@ h1 {
 
 a {
     cursor: progress;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+a:active{
+    color: red;
+}
+
+a:hover {
+    background-color: aqua;
+    color: yellow;
+}
+
+.teste {
+    background-color: aqua;
+    list-style: square inside;
 }
