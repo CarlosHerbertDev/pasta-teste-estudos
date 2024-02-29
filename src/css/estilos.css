@@ -1,0 +1,38 @@
+
+html {
+    
+}
+
+
+
+
+@font-face {
+    font-family: 'Milky';
+    src: url(/src/fontes/MilkyNice.otf), url(./src/fontes/MilkyNice.ttf);
+}
+
+h1 {
+    font-family: 'Milky', Arial, sans-serif;
+}
+
+a {
+    cursor: progress;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+a:active{
+    color: red;
+}
+
+a:hover {
+    background-color: aqua;
+    color: yellow;
+}
+
+.teste {
+    background-color: aqua;
+    list-style: square inside;
+}
