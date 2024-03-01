@@ -1,0 +1,29 @@
+.moda tr th{
+    border: 1px solid #BB86FC;
+    padding: 10px;
+    background-color: #BB86FC;
+    color: white;
+}
+
+.moda tr td {
+    border: 1px solid #424250;
+    padding: 10px;
+    background-color:#424250;
+    color: white;
+}
+
+.casa tr th{
+    border: 1px solid #00C4B4
+    ;
+    padding: 10px;
+    background-color: #00C4B4
+    ;
+    color: white;
+}
+
+.casa tr td {
+    border: 1px solid #424250;
+    padding: 10px;
+    background-color:#424250;
+    color: white;
+}
