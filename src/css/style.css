@@ -105,6 +105,46 @@ p::first-letter {
 
 
 
+
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  border: 1px solid black;
+  max-width: 400px;
+}
+.item1 {
+  flex-grow: 1;  
+  flex-basis: 0px;
+
+}
+
+.item2 {
+  flex-grow: 1; 
+    flex-basis: 0px;
+
+
+}
+
+.item3 {
+  flex-grow: 1; 
+    flex-basis: 0px;
+
+}
+.item {
+  text-align: center;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+
+
  /* .wrapper{
     width: 100%;
     margin: 0 auto;
