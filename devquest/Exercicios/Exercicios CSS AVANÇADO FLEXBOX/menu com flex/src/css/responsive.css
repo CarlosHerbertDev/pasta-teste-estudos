@@ -1,0 +1,51 @@
+@media (max-width: 886px){
+    .cabecalho{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 700px){
+    .cabecalho .menu {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding-inline: 0px;
+    }    
+}
+
+@media (max-width: 479px){
+    
+    .cabecalho {
+        gap: 100px;
+    }
+
+    .cabecalho .logo {
+        font-size: 25px;
+        margin-inline: 70px;
+    }
+
+    .cabecalho .logo img {
+        height: 50px;
+    }
+    
+    .cabecalho .menu {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+        font-size: 55px;
+    }
+
+    .cabecalho .menu .cadastro {
+        padding:20px 30px;
+        font-size: 20px;
+    }
+    .cabecalho .menu .cadastro:hover {
+        padding:30px 40px;
+        font-size: 20px;
+    }
+}

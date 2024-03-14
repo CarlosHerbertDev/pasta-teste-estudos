@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+}
+
+.cabecalho{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho .logo {
+    display: flex;
+    gap: 10px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 30px;
+}
+.cabecalho .menu li a {
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.cabecalho .menu li a:hover {
+    background-color: var(--background-color);
+    color: #FFFFFF;
+}
+
+.cabecalho .menu .cadastro {
+    background-color: var(--background-color);
+    color:#FFFFFF;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+
+.cabecalho .menu .cadastro:hover {
+    padding:15px 25px;
+}
