@@ -1,0 +1,8 @@
+@media (max-width: 729px) {
+    body {
+        margin-top: 0px;
+    }
+    .container .menu {
+        gap: 0px;
+    }
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 50px 20px;
+    margin-top: 80px;
+    font-family: "Public Sans", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;   
+}
+
+.container .menu li {
+    width: 335px;
+    height: 432px;
+    padding: 20px 20px 50px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.container .menu li h1 {
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.container .menu li p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.container .menu li.roma{
+    background-image: url(../imagens/rome.png);
+}
+.container .menu li.boat{
+    background-image: url(../imagens/boat.png);
+}
+.container .menu li.sand{
+    background-image: url(../imagens/sand-and-sea.png);
+}
+.container .menu li.night{
+    background-image: url(../imagens/starry-night.png);
+}
